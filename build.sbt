@@ -5,7 +5,7 @@ lazy val root = (project in file("."))
       organization := "com.github.sbt",
       name := "sbt-eclipse",
       scalacOptions ++= Seq("-unchecked", "-deprecation", "-target:jvm-1.8"),
-      scalaVersion := "2.12.20",
+      scalaVersion := "2.12.21",
       // Customise sbt-dynver's behaviour to make it work with tags which aren't v-prefixed
       ThisBuild / dynverVTagPrefix := false,
       // Sanity-check: assert that version comes from a tag (e.g. not a too-shallow clone)
